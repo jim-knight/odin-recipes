@@ -1,0 +1,23 @@
+body{
+    max-width: 100%;
+    background: #f5f5f5; color: gray; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1em; line-height: 1.5;
+}
+main{
+    width: 100%; max-width: 1200px; margin: 50px auto;
+    padding: 50px 25px;
+    background: white; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+ul.menu-links{
+    display: flex; flex-flow: row wrap; align-items: center; justify-content: center;
+    list-style: none;
+}
+ul.menu-links li{
+    padding: 5px 20px;
+}
+a{
+    color: cornflowerblue;
+}
+a:hover{
+    color: lightcoral;
+}
